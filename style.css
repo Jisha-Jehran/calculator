@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ced3d6;
+    font-family: sans-serif;
+    outline: none;
+}
+#title{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+  margin-top: 20px;
+   
+}
+
+.container{
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 3px;
+    border: 9px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #698b5f;
+    border: none;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    color: aliceblue;
+    background-color: #131111;
+    border: none;
+    border-radius: 2px;
+    margin:8px;
+    font-size: 17px;
+}
+button:hover
+{
+    transform: scale(0.9);
+    color: rgb(188, 188, 188);
+}
+
+.bg-color{
+    background-color: #131111;
+}
+#equal{
+    
+    border-radius: 2px;
+    background-color: rgb(44, 151, 63);
+}
+#clear{
+    background-color: rgb(173, 21, 21);
+}
+
+#description{
+    margin: 10px 10px;
+    font-size: medium;
+    line-height: 30px;
+    word-spacing: 3px;
+    text-indent: 10%;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+           font-size: x-large;
+            margin-top: 40px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+}
+
+b{
+    color: rgb(198, 30, 30) !important;
+    font-size: large;
+}

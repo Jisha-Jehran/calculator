@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./calculator1.png">
+    
+</head>
+<body>
+    <h1 id="title">Calculator</h1>
+
+<div class="container">
+   
+         <div class="calculator"> 
+
+    <input type="text" placeholder="0" id="result">
+    <button id="clear" onclick="Clear()">C</button>
+    <button onclick="Delete()">D</button>
+    <button onclick="display('%')">%</button>
+    <button onclick="display('/')">/</button>
+    <button class="bg-color" onclick="display('9')">9</button>
+    <button class="bg-color" onclick="display('8')">8</button>
+    <button class="bg-color" onclick="display('7')">7</button>
+    <button onclick="display('*')">*</button>
+    <button class="bg-color" onclick="display('6')">6</button>
+    <button class="bg-color" onclick="display('5')">5</button>
+    <button class="bg-color" onclick="display('4')">4</button>
+    <button onclick="display('-')"  id="subtract">-</button>
+    <button class="bg-color" onclick="display('3')" id="3">3</button>
+    <button class="bg-color" onclick="display('2')" id="2">2</button>
+    <button class="bg-color" onclick="display('1')" id="1">1</button>
+    <button onclick="display('+')" id="add">+</button>
+    <button class="bg-color" onclick="display('0')">0</button>
+    <button class="bg-color" onclick="display('00')">00</button>
+    <button onclick="display('.')">.</button>
+    <button id="equal" onclick="Calculate('')">=</button>
+
+</div>
+
+
+</div>
+<h3>Description </h3>
+<br>
+<p id="description"> Hi Everyone. This is a simple calculator which I have made using DOM. Here you can perform some basic arithematic operations such as addition, subtraction, division, multiplication and modulus. For building this UI I have used DOM for creating HTML elements, CSS and Bootstrap for styling. This UI is responsive for all media screens. I have included some additional buttons like <b>C</b> for clearing and <b>D</b> for deleting or removing the last digit from the display-input screen. In case if you performs an invalid operation then the screen will show you an alert message and clears the invalid operation from the display-input screen. </p>
+   <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
