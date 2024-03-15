@@ -96,3 +96,7 @@ b{
     color: rgb(198, 30, 30) !important;
     font-size: large;
 }
+
+#remove{
+    background-color: rgb(63, 63, 161);
+}
